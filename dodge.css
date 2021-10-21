@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap');
+@font-face {
+    font-family: "OpenSymbol";
+    src: url("BarlowCondensed-SemiBold.ttf") format("truetype");
+    
+  }
+  @font-face {
+    font-family: "OpenSymbol1";
+    src: url("BarlowCondensed-Bold.ttf") format("truetype");
+    
+  }
+
+.header{
+    background: #000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body{
+    margin: 0%;
+}
+.logo{
+    width: 12%;
+}
+.logo img{
+    max-width: 130px;
+    max-height: 18px;
+    padding-left: 10%;
+}
+.middle_section{
+    width: 62%;
+}
+.menu {
+    width: 26%;
+    
+}
+
+.middle_section li a{
+    font-size: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+.middle_section ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 50px;
+    list-style: none;
+    margin-left: -3px;
+}
+.middle_section ul li{
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+.menu a{
+    font-size: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+}
+.menu img{
+    max-width: 14px;
+    max-height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+}
+div.language:hover{
+    background-color: #3b3b3b;
+}
+.middle_section li :hover{
+    background-color:#3b3b3b ;
+}
+.durengo {
+    
+    background-image: url('2021-dodge-durango-hero-q3.jpg');
+    background-size: cover;
+    height: 436px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+.lineitem{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.durengo1 img{
+    float: right;
+   
+    margin-right: 170px;
+    margin-top: 50px;
+}
+.durengo a{
+    text-decoration: none;
+    font-family: "OpenSymbol1";
+    color: #ffff;
+    font-size: 26px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.durengotext1{
+    margin-top:125px ;
+    margin-right: -215px ;
+    float: right;
+}
+.durengotext2{
+    margin-top:175px ;
+    margin-right: -258px ;
+    float: right;
+}
+.durengotext3{
+    margin-top:225px ;
+    margin-right: -238px ;
+    float: right;
+}
+.durengotext4{
+    margin-top:275px ;
+    margin-right: -323px ;
+    float: right;
+}
+.durengo p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.secondary1{
+    margin-top:158px ;
+    margin-right: -124px ;
+    float: right;
+}
+.secondary2{
+    margin-top:208px ;
+    margin-right: -167px ;
+    float: right;
+}
+.secondary3{
+    margin-top:257px ;
+    margin-right: -167px ;
+    float: right;
+}
+.secondary4{
+    align-items: center;
+    margin-top:306px ;
+    margin-right: -329px ;
+    float: right;
+}
+.durengo2{
+    margin-top: 37px;
+    margin-right: -303px ;
+    float: right;
+}
+.bt1{
+    background-color:#d50000;
+    font-family: "Barlow Condensed", Roboto, sans-serif;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    height: 32px;
+    width: 125px;
+    font-weight: 700;
+    margin-top: 310px;
+
+}
+.bt2{
+    background-color:#d50000;
+    font-family: "Barlow Condensed", Roboto, sans-serif;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    height: 32px;
+    width: 99px;
+    font-weight: 700;
+    margin-left: 17px;
+    margin-top: 310px;
+}
+.bt1:hover{
+    background-color:#ff3333;
+}
+.bt2:hover{
+    background-color:#ff3333;
+}
+.radials{
+    margin-top: -12px;
+    
+}
+.tag p{
+    font-family: "BarlowCondensed-SemiBold", OpenSymbol;
+    font-size: 38px;
+    margin-top: 44px;
+    
+}
+.vehicles{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.vehicles img{
+    height: 240px;
+    width: 397px;
+}
+.brotherhood{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding-left: 169px;
+    padding-right: 210px;
+}
+
+
+.brotherhood img{
+    height: 231px;
+    width: auto;
+    margin: 5px;
+
+}
+.btt{
+    background-color: white;
+    font-family: "Barlow Condensed", Roboto, sans-serif;
+    color: #d50000;
+    text-align: center;
+    border: 2px solid #d50000;
+    height: 35px;
+    width: 200px;
+    font-weight: 700;
+    
+}
+.name{
+    font-family: "BarlowCondensed-SemiBold", OpenSymbol;
+    font-size: 14px;
+    font-weight: 700px;
+    margin: 0;
+}
+.msrp{
+    font-family: 'Barlow', sans-serif;
+    font-size: 8px;
+    font-weight: 400px;
+    margin: 1;
+}
+.price{
+    font-family: "BarlowCondensed-SemiBold", OpenSymbol;
+    font-size: 17px;
+    font-weight: 700px;
+    margin: 0;
+}
+.badge{
+   
+    width: 1349px;
+    height: 121px;
+    background-color:#212121;   
+}
+.badge img{
+    float: left;
+    margin-top: 49px;
+    margin-left: 127px;
+}
+.badge1 ul{
+    display: inline-block;
+    margin-left: -40px;
+    list-style: none;
+
+  
+}
+.badge ul a{
+    color: white;
+    text-decoration: none; 
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.badge1 {
+    display: inline-block;
+    padding-top: 40px;
+}
+.badge1 ul li{
+    float: left;
+    margin-left: 45px;
+}
+.search{
+    
+    display: inline-block;
+    float: right;
+    margin-right: 245px;
+    margin-top: 44px;
+}
+.search input{
+    height: 35px;
+    width: 228px;
+}
+.magna{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.magna img{
+    
+    width: 35px;
+    height: 35px;
+    margin-right: 472px;
+    margin-top: -50px;
+}
+.button{
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 157px;
+    margin-top: -50px;
+}
+.bt3{
+    background-color:#d50000;
+    font-family: "Barlow Condensed", Roboto, sans-serif;
+    color: #ffff;
+    text-align: center;
+    border: none;
+    height: 35px;
+    width: 88px;
+    font-weight: 700;
+    
+    
+
+}
